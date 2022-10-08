@@ -23,22 +23,28 @@ html {
 
 .calc__container {
   background-color: #585858;
-  width: 45%;
+  border-radius: 10px;
 }
 .calc__screen {
   display: flex;
   justify-content: flex-end;
   background-color: #cfe0cf;
-  padding: 1rem;
+  padding: 2rem;
+  margin: 2rem 1rem;
+  border-radius: 10px;
 }
 .calc__numbers {
-  display: grid;
+  margin: 1rem;
 }
 .calc__button {
   background-color: #e6e6e5;
   padding: 2rem;
   border: 1px solid black;
   border-radius: 10px;
+  margin-left: 0.5rem;
+}
+.calc__button:hover {
+  cursor: pointer;
 }
 
 .orange {
