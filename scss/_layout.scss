@@ -1,0 +1,48 @@
+.content {
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
+
+.calc {
+  &__container {
+    background-color: $color-primary-grey;
+    width: 45%;
+  }
+
+  &__screen {
+    display: flex;
+    justify-content: flex-end;
+    background-color: $color-primary-green;
+    padding: 1rem;
+  }
+
+  &__numbers {
+    display: grid;
+    &-top {
+    }
+
+    &-middle-top {
+    }
+
+    &-middle-bottom {
+    }
+
+    &-bottom {
+    }
+  }
+
+  &__button {
+    background-color: $color-secondary-grey;
+    padding: 2rem;
+    border: 1px solid $color-primary-black;
+    border-radius: 10px;
+  }
+}
+
+.orange {
+  background-color: $color-primary-orange;
+}
