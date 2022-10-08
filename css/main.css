@@ -38,6 +38,10 @@ html {
 .calc__numbers {
   margin: 1rem;
 }
+.calc__numbers-clear {
+  display: flex;
+  justify-content: space-around;
+}
 .calc__button {
   background-color: #e6e6e5;
   padding: 2rem;
@@ -47,6 +51,14 @@ html {
 }
 .calc__button:hover {
   cursor: pointer;
+}
+
+.clear {
+  width: 40%;
+}
+
+.del {
+  width: 40%;
 }
 
 .orange {

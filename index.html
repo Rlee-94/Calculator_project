@@ -13,32 +13,36 @@
       <div class="calc__container">
         <section class="calc__screen">0</section>
         <main class="calc__numbers-container">
+            <section class="calc__numbers-clear">
+                <button class="calc__button clear">AC</button>
+                <button class="calc__button del">DELETE</button>
+            </section>
           <section class="calc__numbers">
             <button class="calc__button">7</button
             ><button class="calc__button">8</button
             ><button class="calc__button">9</button
-            ><button class="calc__button">&divide;</button>
+            ><button class="calc__button" id="divide">&divide;</button>
           </section>
 
           <section class="calc__numbers">
             <button class="calc__button">4</button
             ><button class="calc__button">5</button
             ><button class="calc__button">6</button
-            ><button class="calc__button">&#215</button>
+            ><button class="calc__button" id="multiply">&#215</button>
           </section>
 
           <section class="calc__numbers">
             <button class="calc__button">1</button
             ><button class="calc__button">2</button
             ><button class="calc__button">3</button
-            ><button class="calc__button">-</button>
+            ><button class="calc__button" id="subtract">-</button>
           </section>
 
           <section class="calc__numbers">
             <button class="calc__button">0</button
-            ><button class="calc__button">&#x2022</button
-            ><button class="calc__button">+</button
-            ><button class="calc__button orange">=</button>
+            ><button class="calc__button">.</button
+            ><button class="calc__button" id="add">+</button
+            ><button class="calc__button orange" id="equals">=</button>
           </section>
         </main>
       </div>

@@ -26,6 +26,11 @@
 
   &__numbers {
     margin: 1rem;
+
+    &-clear {
+      display: flex;
+      justify-content: space-around;
+    }
   }
 
   &__button {
@@ -39,6 +44,14 @@
       cursor: pointer;
     }
   }
+}
+
+.clear {
+  width: 40%;
+}
+
+.del {
+  width: 40%;
 }
 
 .orange {
