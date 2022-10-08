@@ -27,11 +27,13 @@ html {
 }
 .calc__screen {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   background-color: #cfe0cf;
   padding: 2rem;
   margin: 2rem 1rem;
   border-radius: 10px;
+  font-size: 1.6rem;
 }
 .calc__numbers {
   margin: 1rem;
