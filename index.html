@@ -8,45 +8,71 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-
-    <div class="content__container">   
+    <div class="content__container">
       <div class="calc__container">
         <section class="calc__screen">0</section>
         <main class="calc__numbers-container">
-            <section class="calc__numbers-clear">
-                <button class="calc__button clear">AC</button>
-                <button class="calc__button del">DELETE</button>
-            </section>
+          <section class="calc__numbers-clear">
+            <button class="calc__button clear" id="all-clear">AC</button>
+            <button class="calc__button del" id="delete">DELETE</button>
+          </section>
           <section class="calc__numbers">
-            <button class="calc__button">7</button
-            ><button class="calc__button">8</button
-            ><button class="calc__button">9</button
-            ><button class="calc__button" id="divide">&divide;</button>
+            <button class="calc__button" data-number>7</button
+            ><button class="calc__button" data-number>8</button
+            ><button class="calc__button" data-number>9</button
+            ><button
+              class="calc__button calc__button--blue"
+              id="divide"
+              data-operator
+            >
+              ÷
+            </button>
           </section>
 
           <section class="calc__numbers">
-            <button class="calc__button">4</button
-            ><button class="calc__button">5</button
-            ><button class="calc__button">6</button
-            ><button class="calc__button" id="multiply">&#215</button>
+            <button class="calc__button" data-number>4</button
+            ><button class="calc__button" data-number>5</button
+            ><button class="calc__button" data-number>6</button
+            ><button
+              class="calc__button calc__button--blue"
+              id="multiply"
+              data-operator=""
+            >
+              ×
+            </button>
           </section>
 
           <section class="calc__numbers">
-            <button class="calc__button">1</button
-            ><button class="calc__button">2</button
-            ><button class="calc__button">3</button
-            ><button class="calc__button" id="subtract">-</button>
+            <button class="calc__button" data-number>1</button
+            ><button class="calc__button" data-number>2</button
+            ><button class="calc__button" data-number>3</button
+            ><button
+              class="calc__button calc__button--blue"
+              id="subtract"
+              data-operator=""
+            >
+              -
+            </button>
           </section>
 
           <section class="calc__numbers">
-            <button class="calc__button">0</button
-            ><button class="calc__button">.</button
-            ><button class="calc__button" id="add">+</button
-            ><button class="calc__button orange" id="equals">=</button>
+            <button class="calc__button" data-number>0</button
+            ><button class="calc__button" id="decimal">.</button
+            ><button class="calc__button calc__button--orange" id="equals">
+              =</button
+            ><button
+              class="calc__button calc__button--blue"
+              id="add"
+              data-operator=""
+            >
+              +
+            </button>
           </section>
         </main>
       </div>
-      <footer>Created by: <a href="https://github.com/Rlee-94">Reggie Lee</a> </footer>
+      <footer>
+        Created by: <a href="https://github.com/Rlee-94">Reggie Lee</a>
+      </footer>
     </div>
     <script src="script.js"></script>
   </body>

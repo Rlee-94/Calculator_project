@@ -14,6 +14,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: beige;
+}
+
 .content__container {
   display: flex;
   flex-direction: column;
@@ -49,9 +53,17 @@ html {
   border: 1px solid black;
   border-radius: 10px;
   margin-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
 }
 .calc__button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+}
+.calc__button--orange {
+  background-color: #f1ab48;
+}
+.calc__button--blue {
+  background-color: #5098f0;
 }
 
 .clear {
@@ -62,13 +74,9 @@ html {
   width: 40%;
 }
 
-.orange {
-  background-color: #f1ab48;
-}
-
 footer {
   margin-top: 2rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 footer > a {
   text-decoration: none;
